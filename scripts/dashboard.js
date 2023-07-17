@@ -57,14 +57,15 @@ function takeQuiz(quizId) {
     .then(data => {
       if (data.success) {
         alert("Deleted Successfully")
-        displayQuizzes()
+  
         // Remove the quiz card from the DOM
         const quizCard = document.getElementById(quizId);
         if (quizCard) {
           quizCard.remove();
         }
+        displayQuizzes(data);
       }
-   displayQuizzes()
+ 
       
     })
     .catch(error => {

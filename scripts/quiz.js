@@ -6,7 +6,7 @@ const quizUrl = `${baseurl}/quizzes/${quizId}/questions`;
 let backtoDashboard = document.getElementById("backtoDashboard");
 
 backtoDashboard.addEventListener("click", () => {
-  window.location.href = "dashboard.html"
+  window.location.href = "Dashboard.html"
 })
 
 let quizData = null;
