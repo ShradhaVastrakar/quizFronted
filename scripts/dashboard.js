@@ -28,7 +28,7 @@ function displayQuizzes(data) {
           <p>No. of Questions: ${quiz.questions.length}</p>
           <button onclick="takeQuiz('${quiz._id}')">Take Quiz</button>
           <button onclick="viewLeaderboard('${quiz._id}')">Leaderboard</button>
-          <button onclick="deleteQuiz('${quiz._id}')">Delete Quiz</button>
+          <button onclick="deleteQuiz('${quiz._id}')" id="Delete-button">Delete Quiz</button>
          
         `;
         quizList.append(quizCard);

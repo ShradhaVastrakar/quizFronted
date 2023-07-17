@@ -107,3 +107,7 @@ body {
     cursor: pointer;
 
   }
+
+  #Delete-button{
+    background-color: #dd251e;
+  }
