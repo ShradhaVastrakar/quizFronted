@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Page</title>
+</head>
+<link rel="stylesheet" href="./styles/dashboard.css">
+<body>
+    <h1>Dashboard</h1>
+    <button id="logout-main">Logout</button>
+   <button id="create-quiz" onclick="openCreateQuizForm()">Create Quiz</button>
+   
+   <div id="createQuizForm" style="display: none;">
+    
+    <form onsubmit="createQuiz(event)">
+      <label for="quizTitle">Quiz Title:</label>
+      <input type="text" id="quizTitle" required>
+      <label for="quizDescription">Quiz Description:</label>
+      <textarea id="quizDescription" required></textarea>
+      <div id="questionsContainer"></div>
+      <button type="button" onclick="addQuestion()">Add Question</button>
+      <button type="submit">Add Quiz</button>
+      <button id="closebutton">Close</button>
+    </form>
+  </div>
+  
+    <div id="quizList"></div>
+</body>
+<script src="./scripts/dashboard.js"></script>
+</html>

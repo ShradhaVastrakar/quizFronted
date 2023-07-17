@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<link rel="stylesheet" href="./styles/index.css">
+<body>
+    <h1 class="home">Home Page</h1>
+    <div class="mainContainer">
+
+        <div class="home-option">
+            <button onclick="homeLogin()" id="homeLogin">Login</button>
+            <button onclick="homeRegister()" id="homeRegister">Register</button>
+        </div>
+
+        <form id="loginForm" style="display: block;">
+            <input type="email" placeholder="Email" id="login_email" class="login_input" required><br>
+            <input type="submit" value="Login" class="login_btn">
+        </form>
+        <form id="RegisterForm" > 
+            <input type="text" placeholder="Username" id="register_username" class="login_input"><br>
+            <input type="email" placeholder="Email" id="register_email" class="login_input"><br>
+         
+            <input type="submit" value="Register" class="login_btn">
+        </form>
+    </div>
+</body>
+<script src="./scripts/index.js"></script>
+</html>

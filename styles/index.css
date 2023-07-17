@@ -1,0 +1,57 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+.home{
+    color: teal;
+    margin-left: 38%;
+}
+#homePage-navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    text-decoration: none;
+    background-color: #004879
+}
+#homeLogin, #homeRegister{
+    width: 13%;
+    margin-top: 2%;
+    color: wheat;
+    border-style: none;
+    height: 1.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(38, 37, 124); 
+}
+
+.home-option{
+    margin-top: 2%;
+    margin-left: 20%;
+    padding: 1%;
+    display: flex;
+    justify-content:space-evenly;
+    width: 50%;
+}
+
+#loginForm, #RegisterForm{
+    margin-left: 35%;
+    margin-bottom: 2%;
+    display: none;
+}
+
+.login_input{
+    margin-top: 2%;
+    height: 1.5rem;
+    width: 31%;
+}
+
+.login_btn{
+    width: 32%;
+    margin-top: 2%;
+    color: wheat;
+    border-style: none;
+    height: 1.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #004879
+}
