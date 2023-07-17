@@ -1,6 +1,6 @@
 let login = document.getElementById("loginForm")
 let register = document.getElementById("RegisterForm")
-let url = "http://localhost:7000/api"
+let url = "https://nice-pink-seal-veil.cyclic.app/api"
 
 let homeLogin = () => {
     register.style.display = "none";

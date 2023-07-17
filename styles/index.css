@@ -1,57 +1,65 @@
-*{
-    font-family:'Times New Roman', Times, serif;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
 }
-.home{
-    color: teal;
-    margin-left: 38%;
+
+.home {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
 }
-#homePage-navbar{
-    
-    display: flex;
-    justify-content: space-around;
-    padding: 2%;
-    text-decoration: none;
-    background-color: #004879
+
+.mainContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-#homeLogin, #homeRegister{
-    width: 13%;
-    margin-top: 2%;
-    color: wheat;
-    border-style: none;
-    height: 1.7rem;
+
+.home-option {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: rgb(38, 37, 124); 
+    transition: background-color 0.3s ease;
 }
 
-.home-option{
-    margin-top: 2%;
-    margin-left: 20%;
-    padding: 1%;
-    display: flex;
-    justify-content:space-evenly;
-    width: 50%;
+button:hover {
+    background-color: #45a049;
 }
 
-#loginForm, #RegisterForm{
-    margin-left: 35%;
-    margin-bottom: 2%;
-    display: none;
+.login_input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.login_input{
-    margin-top: 2%;
-    height: 1.5rem;
-    width: 31%;
-}
-
-.login_btn{
-    width: 32%;
-    margin-top: 2%;
-    color: wheat;
-    border-style: none;
-    height: 1.7rem;
+.login_btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #004879
+    transition: background-color 0.3s ease;
+}
+
+.login_btn:hover {
+    background-color: #097012;
 }

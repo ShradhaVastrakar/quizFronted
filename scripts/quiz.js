@@ -1,4 +1,4 @@
-let baseurl = "http://localhost:7000/api"
+let baseurl = "https://nice-pink-seal-veil.cyclic.app/api"
 const urlParams = new URLSearchParams(window.location.search);
 let quizId = urlParams.get('id');
 const quizUrl = `${baseurl}/quizzes/${quizId}/questions`;

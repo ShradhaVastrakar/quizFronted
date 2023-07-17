@@ -1,5 +1,5 @@
 
-let url = "http://localhost:7000/api"
+let url = "https://nice-pink-seal-veil.cyclic.app/api"
 
 const quizList = document.getElementById('quizList');
 const createQuizForm = document.getElementById('createQuizForm');
