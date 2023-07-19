@@ -56,7 +56,7 @@ function takeQuiz(quizId) {
     .then(response => response.json())
     .then(data => {
       if (data.success) {
-        alert("Deleted Successfully")
+        alert("Deleted Successfully, Please Refresh the Page once.")
   
         // Remove the quiz card from the DOM
         const quizCard = document.getElementById(quizId);
